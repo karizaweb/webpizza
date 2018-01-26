@@ -1,0 +1,135 @@
+
+/*  Header 
+ */
+/* Main-Header */
+.main-header {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,1);
+}
+
+/* Featured */
+.featured {
+    background-image: url(../images/pizza-show-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+.jumbotron{
+    text-align: center;
+    background-color: rgba(0, 0, 0, .4);
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+    height: 50%;
+    top: 35%;
+}
+.jumbotron .btn{
+    background-color: #fbd708;
+    border: none;
+    border-radius: inherit;
+    color: black;
+
+    
+     
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.jumbotron .btn:hover{
+    background-color: #e82208;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+/* ======================================================== */
+/* 
+    Content
+ */
+
+/* Section */
+section {
+    margin-bottom: 80px;
+}
+section:last-child {
+    margin-bottom: 160px;
+}
+
+
+/* Section header */
+.section-header {
+    text-align: center;
+}
+.section-title {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+
+    display: inline-block;
+    border-bottom: 3px solid #fbff00;
+}
+.section-title::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* ================================================================ */
+/* Cards */
+.card {
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.card-title {
+    text-align: center;
+}
+.card-text {
+    text-align: justify;
+}
+
+.card .btn {
+    background-color: #e82208;
+    border-radius: 0;
+    border: none;
+    font-size: 1.3rem;
+     
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.card .btn:hover {
+    background-color: #fbd708;
+}
+
+/* ============================================================ */
+/* footer */
+.googlemap, .contact {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+.googlemap iframe {
+    margin-top: -80px;
+    height: 380px !important;
+    width: 100% !important;
+}
+
+/* Formulaire */
+
+.form-control{
+    background-color: #333333;
+    color: white;
+}
+/* Copyright */
+.copyright {
+    background-color: #ffffff;
+}
+
+
+
+
+
+ 

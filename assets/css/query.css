@@ -1,0 +1,12 @@
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+    .featured {
+        background-image: url(../images/pizza-show-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: ;
+        height: 230px;
+        width: auto;
+    }
+    
+  }
