@@ -103,15 +103,6 @@ section:last-child {
     text-align: justify;
 }
 
-/* .card .btn {
-    background-color: #e82208;
-    border-radius: 0;
-    border: none;
-    font-size: 1.3rem;
-     
-    -webkit-transition: all .3s;
-    transition: all .3s;
-} */
 .card .btn:hover {
     background-color: rgb(255, 51, 0);
 }
@@ -138,6 +129,9 @@ section:last-child {
 /* Copyright */
 .copyright {
     background-color: #ffffff;
+}
+.main-footer2{
+    margin-top: 150px;
 }
 
 

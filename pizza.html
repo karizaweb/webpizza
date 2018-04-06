@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <!-- CSS perso -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- <link rel="stylesheet" media="screen" href="assets/css/query.css" type="text/css" /> -->
+
+  <title>Accueil Pizza</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Main header -->
+    <header class="main-header fixed-top">
+      <div class="container">
+        <!-- Menu principal -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" alt="logo pizza">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="pizzas.html">Nos Pizzas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="salads.html">Nos Salades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- end .navbar -->
+      </div>
+    </header>
+    <!-- end - .main-header -->
+
+    <!-- Main content -->
+    <div class="main-content">
+      <!-- Featured -->
+      <section class="featured">
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="d-none">Web Pizza</h1>
+            <p class="lead">Une bonne pizza
+              <br> pour bien coder</p>
+            <a class="btn btn-yellow btn-lg" href="pizzas.html" role="button">Manger cette pizza</a>
+          </div>
+        </div>
+      </section>
+      <!-- end - .featured -->
+
+      <!-- nos pizzas -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Pizza n°1</h1>
+          </div>
+          <div class="col-md-6 text-right">
+            <h1>8,99€</h1>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img class="" src="assets/images/pizza-1.png" alt="">
+          </div>
+          <div class="col-md-6 ">
+            <h3>Recette</h3>
+            <ul>
+              <li>Crème fraîche légère</li>
+              <li>mozzarella</li>
+              <li>Raclette</li>
+              <li>Pommes de terre sautées</li>
+              <li>Jambon de Savoie</li>
+              <li>Cornichons croquants</li>
+            </ul>
+            <h3>Prix</h3>
+            <label>
+              <input type="radio" name="prixPizza" checked value="pizza-1">
+              <em>Une part</em> - 2,99€
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="prixPizza" value="pizza-1">
+              <em> Petite</em> - 8,99€
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="prixPizza" value="pizza-1">
+              <em>Grande</em> - 14,99€
+            </label>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <br>
+                <button type="submit" class="btn btn-danger">Je passe commande</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <textarea class="" name="" id="" cols="50" rows="10" placeholder="Laissez un commentaire"></textarea>
+            <br>
+            <input type="submit">
+            <ol>
+              <li><h3>Commentaire n°1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum aperiam nam non blanditiis odit eos dolor rem libero accusamus optio, accusantium reiciendis possimus debitis eaque. Eum obcaecati tempore accusamus.</p>
+              </li>
+              <li><h3>Commentaire n°1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum aperiam nam non blanditiis odit eos dolor rem libero accusamus optio, accusantium reiciendis possimus debitis eaque. Eum obcaecati tempore accusamus.</p>
+              </li>
+              <li><h3>Commentaire n°1</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur rerum aperiam nam non blanditiis odit eos dolor rem libero accusamus optio, accusantium reiciendis possimus debitis eaque. Eum obcaecati tempore accusamus.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end .main-content -->
+
+    <footer class="main-footer2">
+      <!-- Google Map -->
+      <!-- Google Map -->
+      <div class="googlemap">
+        <div class="container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d40496.15573087305!2d3.1346278!3d50.626936!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1516871038733"
+            frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <!-- Form -->
+      <div class="contact">
+        <div class="container">
+          <div class="section-header pt-5">
+
+            <h3 class="section-title">Alors c'était bon ?</h3>
+            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatibus, maiores, omnis dignissimos vero
+              molestiae a mollitia qui enim recusandae
+            </p>
+          </div>
+          <form>
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Votre prénom">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Votre nom">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Adresse email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Votre message"></textarea>
+            </div>
+            <div class="row container pb-5">
+              <button type="button" class="btn btn-warning mr-auto ml-auto">Send Message</button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+      <!-- Copyright -->
+      <div class="container">
+        <p>&copy; 2015 RapidTables.com
+          <p>
+      </div>
+    </footer>
+    <!-- End of footer -->
+  </div>
+  <!-- End of wrapper -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
